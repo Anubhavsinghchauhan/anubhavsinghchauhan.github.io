@@ -21,7 +21,7 @@ export function Hero() {
           </p>
           <div className="mt-9 flex flex-wrap gap-4">
             <a href="#projects" className="button-primary">Explore my work <ArrowDown size={17} /></a>
-            <a href={`${process.env.NEXT_PUBLIC_BASE_PATH ?? ""}/resume.pdf`} className="button-outline" download>Download résumé <Download size={17} /></a>
+            <a href={`${process.env.NEXT_PUBLIC_BASE_PATH ?? ""}/resume.pdf`} className="button-outline" download>Download Resume <Download size={17} /></a>
           </div>
           <div className="mt-10 flex flex-wrap items-center gap-x-7 gap-y-3 text-sm text-muted">
             <span className="flex items-center gap-2"><MapPin size={16} className="text-cyan" /> India · working globally</span>
