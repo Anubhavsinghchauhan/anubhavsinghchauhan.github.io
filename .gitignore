@@ -1,0 +1,15 @@
+# dependencies
+/node_modules
+
+# Next.js build output
+/.next
+/out
+
+# local artifacts
+/tmp
+.DS_Store
+*.log
+
+# environment variables
+.env*
+!.env.example
