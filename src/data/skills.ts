@@ -1,18 +1,74 @@
 export const skillGroups = [
   {
     title: "AI Engineering",
-    skills: ["LangChain", "LangGraph", "RAG", "Agentic AI", "vLLM", "Qwen 3", "Paid LLM", "Gemma", "RAGAS"],
+    skills: [
+      "LangChain",
+      "LangGraph",
+      "LangSmith",
+      "RAG",
+      "Agentic AI",
+      "vLLM",
+      "OpenAI API",
+      "Qwen",
+      "Gemma",
+      "Prompt Engineering",
+      "Vector Embeddings",
+      "FAISS",
+      "Pinecone",
+      "Semantic Search",
+      "Transformer Architecture",
+      "Encoder-Decoder Models",
+      "Fine-tuning",
+      "Model Context Protocol (MCP)"
+    ],
   },
+
   {
-    title: "Applied Machine Learning",
-    skills: ["EDA", "Outlier Detection", "Feature Engineering", "Model Training", "Hyperparameter Tuning", "Cross-Validation", "Model Evaluation", "ML-Flow"],
+    title: "Machine Learning",
+    skills: [
+      "PyTorch",
+      "TensorFlow",
+      "scikit-learn",
+      "XGBoost",
+      "MLflow",
+      "Feature Engineering",
+      "Model Training",
+      "Hyperparameter Tuning",
+      "Cross-Validation",
+      "Model Evaluation",
+      "Transfer Learning",
+      "Time Series Forecasting",
+      "Natural Language Processing",
+      "Neural Networks",
+      "Exploratory Data Analysis (EDA)"
+    ],
   },
+
   {
-    title: "Data & Backend",
-    skills: ["Python", "SQL", "Pandas", "NumPy", "Scikit-learn", "XGBoost", "FastAPI", "PostgreSQL", "Databricks", "PySpark", "ML-Algorithm"],
+    title: "Data Engineering & Backend",
+    skills: [
+      "Python",
+      "SQL",
+      "Pandas",
+      "NumPy",
+      "PostgreSQL",
+      "PySpark",
+      "Databricks",
+      "ETL Pipelines",
+      "Data Wrangling",
+      "FastAPI",
+      "Docker",
+      "Azure",
+      "CI/CD",
+      "Cloud Deployment"
+    ],
   },
+
   {
-    title: "Voice, Search & Delivery",
-    skills: ["Kokoro TTS", "Whisper STT", "Pinecone", "FAISS", "Azure", "Docker", "MLflow", "CI/CD"],
+    title: "Voice AI",
+    skills: [
+      "Whisper STT",
+      "Kokoro TTS"
+    ],
   },
 ];
